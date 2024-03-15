@@ -1,0 +1,19 @@
+.search {
+	position: relative;
+	// z-index: -10;
+	&_input {
+		border: 1px solid #d4defe;
+		border-radius: 24px;
+		width: 100%;
+		height: 48px;
+		padding: 12px 24px;
+		font-weight: 400;
+		font-size: 20px;
+		color: #262c40;
+	}
+	&_icon {
+		position: absolute;
+		top: 12px;
+		right: 24px;
+	}
+}
