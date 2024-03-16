@@ -20,6 +20,9 @@
 		color: #262c40;
 		margin-bottom: 24px;
 		line-height: 30px;
+		&:hover {
+			color: #8189a3;
+		}
 	}
 	&_item {
 		display: flex;
