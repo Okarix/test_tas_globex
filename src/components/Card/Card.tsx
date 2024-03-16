@@ -2,10 +2,15 @@ import phoneIcon from '../../assets/icons/phone_icon.svg';
 import emailIcon from '../../assets/icons/email_icon.svg';
 import { CardProps } from '../../types';
 
-function Card({ title, phone, email }: CardProps) {
+function Card({ title, phone, email, openCard }: CardProps) {
 	return (
 		<div className='card'>
-			<h2 className='card_title'>{title}</h2>
+			<h2
+				className='card_title'
+				onClick={() => openCard(email)}
+			>
+				{title}
+			</h2>
 			<div className='card_item'>
 				<img
 					className='card_item-icon'

@@ -8,13 +8,11 @@
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 	background-color: #fff;
 	cursor: pointer;
-	// z-index: -10;
 	&_container {
 		margin-top: 32px;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 25px;
-		// z-index: -11;
 	}
 	&_title {
 		font-weight: 700;
@@ -36,7 +34,6 @@
 	}
 
 	&_modal {
-		// z-index: 1;
 		position: absolute;
 		top: 126px;
 		left: 50%;
@@ -47,7 +44,6 @@
 		min-height: 468px;
 		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 		background-color: #fff;
-
 		&-top {
 			display: flex;
 			justify-content: space-between;
